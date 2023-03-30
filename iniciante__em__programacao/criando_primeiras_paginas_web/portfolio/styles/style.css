@@ -30,8 +30,12 @@ body{
     color: #3AF40D;
 }
 
+.cabecalho__menu__link:hover{
+    color: #f6f6f6 ;
+}
+
 .apresentacao{
-    padding: 3% 5%;
+    padding: 5% 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
