@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+.apresentacao__cv{
+    padding: 5% 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.apresentacao__cv__dados{
+    width: 1150px;
+    padding: 2.5% 0% 2.5% 0%;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    background-color: var(--cor-bg-cv);
+    border-radius: 5px 5px 45px 5px;
+}
+
+.apresentacao__cv__dados__pessoais {
+    font-family: var(--font-fml-texto);
+    font-weight: 600;    
+    font-size: var(--font-size-primaria);
+}
+
+.apresentacao__cv__dados__pessoais h2{
+    font-size: var(--font-size-primaria);
+    font-family: var(--font-fml-destaque);
+}
+.apresentacao__cv__dados__pessoais ul{
+    list-style-type: none;
+    font-family: var(--font-fml-titulo);
+    font-size: var(--font-size-padrão);
+}
+
+.apresentacao__cv__dados__pessoais  a{
+    color: #f6f6f6;    
+    text-decoration: none; 
+}
+
+.apresentacao__cv__dados__pessoais  a:hover{
+    color: #1E1E1E;
+}
+
+.apresentacao_cv__titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;    
+    font-size: var( --font-size-titulo);
+    color: #3AF40D;
+}
+
+.apresentacao__cv__cursos{
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    padding: 1.5%;
+    font-size: var(--font-size-padrão);
+    font-family: 'Krona One', sans-serif;
+    gap: 30px;
+}
+
+.apresentacao__curso_descricao{
+    
+}
+
+.curso__descricao__titulo{
+    font-family: 'Alkatra', sans-serif;
+    font-size: var(--font-size-titulo-secundario);
+}
+
+.curso__titulo__link  a{
+    color: #f6f6f6;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--font-size-padrão);
+    gap: 40px;
+}
+
+.curso__titulo__link  a:hover{
+    color: #23bd02;
+}
+
+.curso__paragrafo{
+    padding-bottom: 15px;
+}
+
+.apresentacao__curso_descricao ul{
+    list-style-type: none;
+    padding-bottom: 1%;
+}
+
+.apresentacao__cv__formacao{
+    background-color: blueviolet;
+    
+}
